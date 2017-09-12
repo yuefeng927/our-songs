@@ -57,7 +57,9 @@ $ git push origin harry-wang
 11. The Admin of upstream review your PR (add comments if necessary) and merge your PR:
 <img width="797" alt="screen shot 2017-09-11 at 9 09 33 pm" src="https://user-images.githubusercontent.com/595772/30303360-8734f480-9735-11e7-9eba-35edc14fa4ae.png">
 <img width="785" alt="screen shot 2017-09-11 at 9 09 54 pm" src="https://user-images.githubusercontent.com/595772/30303367-94951812-9735-11e7-8053-ca1e7fe47c15.png">
+
 12. Once the change is merged by the upstream admin, you should switch back to the local master branch, pull the changes from the upstream repo and remove the branch:
+
 ```
 $ git checkout master
 $ git pull upstream master
