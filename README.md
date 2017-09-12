@@ -60,18 +60,9 @@ $ git push origin harry-wang
 12. Once the change is merged by the upstream admin, you should switch back to the local master branch, pull the changes from the upstream repo and remove the branch:
 ```
 $ git checkout master
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
 $ git pull upstream master
-remote: Counting objects: 1, done.
-remote: Total 1 (delta 0), reused 1 (delta 0), pack-reused 0
-Unpacking objects: 100% (1/1), done.
-...
 $ git push origin master
-Counting objects: 1, done.
-Writing objects: 100% (1/1), 264 bytes | 0 bytes/s, done.
-...
 $ git branch -D harry-wang
-Deleted branch harry-wang (was 5534235).
 ```
+
 Congratulations, you just finished your first Github Workflow Exercise!
